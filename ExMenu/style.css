@@ -25,55 +25,55 @@ h1{
 menu ul{
     display: flex;
 }
-a{
+nav a{
     color: black;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 5px;
     text-decoration: none;
     font-size: 15px;
     font-weight: bolder;
+    margin-left: 15px;
 }
 
-/*#sobre{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 16px;
+nav a:hover{
     background-color: green;
     color: white;
     
 }
 #Cadastro{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 127px;
-    height: 39px;
     border-radius: 10px;
     background-color: green;
-    color: white;   
-}*/
+    color: white;  
+    padding: 10px 20px;
+    margin-left: 20px; 
+}
 
 @media (max-width: 426px){
     header{
-        display: block;
+        flex-direction: column;
     }
     .logo{
         align-items: center;
         justify-content: center;
-        margin-bottom: 30px;
     }
     h1{
         padding: 10px;
         font-size: 30px;
     }
+    nav{
+        margin-top: 30px;
+    }
     menu ul{
         display: block;
         text-align: center;
     }
-    #sobre{
-        align-items: center;
-        justify-content: center;
+    menu ul li{
+        padding: 20px;
+    }
+    menu ul li a{
+        font-size: 40px;
+    }
+    #Cadastro{
+        font-size: 18px;
+        padding: 15px 23px;
     }
 }
