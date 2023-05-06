@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+html{
+    font-size: 62.5%;
+    
+}
+
+body{
+    max-width: 1440px ;
+    font-size: 1.6rem;
+}
+
+header{
+    text-align: center;
+    padding: 30px 15px;
+}
+
+ul li{
+    padding-top: 20px;
+}
+a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    transition: 1s;
+}
+
+#inicio{
+    background: url(images/painel.jpg) center center no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#Pini{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.meio{
+    padding: 153px;
+    text-align: center;
+    clear: both;
+}
+
+.imgflor{
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px;
+    max-width: 100%;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+.Pmeio{
+    font-size: 18px;
+    width: 702px;
+    margin: auto;
+}
+.onde-estamos p{
+    font-size: 28px;
+    width: 480px;
+}
+
+.ladrilho section{
+    display: flex;
+    float: left;
+}
+
+#img4{
+    background: url(images/4.jpg) center center no-repeat;
+    width: 50%;
+    height: 600px;
+}
+
+#img2{
+    background: url(images/2.jpg) center center no-repeat;
+    width: 25%;
+    height: 300px;
+}
+
+#img3{
+    background: url(images/3.jpg) center center no-repeat;
+    width: 25%;
+    height: 300px;
+}
+
+#img1{
+    background: url(images/1.jpg) center center no-repeat;
+    width: 50%;
+    height: 300px;
+}
+
+#endereco{
+    text-align: center;
+    margin: auto;
+}
+
+#contato{
+    background: url(images/fundo-contato.jpg) right center no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#Pcont{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+#cont{
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+
+address{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.telEmail{
+    font-size: 30px;   
+}
+
+#horario{
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+footer ul > li{
+    color: white;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.imgcont{
+    margin-top: 50px;
+    padding: 40px 10px;
+}
+
+.facebook, .instagram{
+    width: 20px;
+    height: 20px;
+}
+
+.rodape{
+    background: url('images/fundo-rodape.jpg') center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+}
+
+menu{
+    display: block ;
+}
+nav, menu > ul{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.rodapeitens  a{
+    color: white;
+    
+}
+.rodapeitens  a:hover{
+    font-weight: bold;
+    
+}
+
+.rodape p{
+    color: white;
+    text-align: left;
+}
+.facebook, .instagram{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.social #rede-social{
+    float: right;
+    clear: both;
+}
+.social{
+    margin-top: 40px;
+}

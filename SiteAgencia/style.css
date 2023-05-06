@@ -1,0 +1,257 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+:root{
+    max-width-size: 1920px;
+}
+
+.header{
+    background-color: white;
+}
+
+.header .header-container{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header h1{
+    font-size: 30px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.header a:hover h1{
+    color: coral;
+}
+
+.comeco{
+    background: url(images/images/lemons.jpg)  center center no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.comeco::after{
+    content: url(images/images/seta_preta.png);
+    position: absolute;
+    animation: downarrow 0.6s infinite alternate;
+    height: 35px;
+    bottom: 40px;
+}
+
+@-webkit-keyframes downarrow{
+    0%{-webkit-transform: translateY(0); opacity: 0.4;}
+    100%{-webkit-transform: translateY(0.4em); opacity: 0.9;}
+}
+
+@media(max-width:425px){
+    .comeco{
+        height: 60vh;
+    }
+    .comeco p{
+        font-size: 1.5em;
+    }
+}
+
+.conteudo{
+    display: flex;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
+
+.p-contener{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.titulo{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.p-texto{
+    text-align: justify;
+    padding: 0 25%;
+}
+
+.conteudo-meio{
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.saibamais{
+    padding-top: 20px;
+    align-self: flex-start;
+}
+
+.saibamais:hover{
+    font-weight: 700;
+}
+
+.meio2{
+    background:url(images/images/bridge.jpg) no-repeat center center;
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+}
+
+.meio3{
+    background:url(images/images/sky.jpg) no-repeat center center;
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+}
+
+@media(max-width: 425px){
+    .conteudo{
+        display: block;
+    }
+
+    .p-texto{
+        padding: 0 15%;
+    }
+    .meio{
+        width: 100vw;
+    }
+    .meio2{
+        width: 100vw;
+    }
+    .meio3{
+        width: 100vw;
+    }
+    
+    .conteudo-meio{
+        font-size: 1em;
+    }
+}
+
+.img{
+    text-align: center;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.meio4{
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
+
+.meio-4{
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
+
+@media(max-width: 425px){
+    .meio4{
+        width: 100vw;
+    }
+
+    .meio-4{
+        width: 100vw;
+    }
+
+    .title{
+        font-size: 2.1em;
+        margin-bottom: 20px;
+    }
+}
+
+img{
+    width: 25%;
+}
+
+.imagem{
+    display: flex;
+}
+@media(max-width: 425px){
+    .imagem{
+        display: block;
+    }
+    .img{
+        display: block;
+        width: 100%;
+    }
+
+}
+
+.footer{
+    display: flex;
+    background-color: lightgreen;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.footer h4{
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.footer nav{
+    margin: 50px 0;
+}
+
+.footer nav ul{
+    display: flex;
+    justify-content: center;
+    max-width: 320px;
+    margin: auto;
+}
+
+.footer nav ul a{
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.footer nav ul a:hover{
+    font-weight: 700;
+    color: white;
+}
+
+.footer .social .imgrodape{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+}
+
+@media(max-width:425px){
+    .footer nav ul li a {
+        font-size: 1.2em;
+    }
+}

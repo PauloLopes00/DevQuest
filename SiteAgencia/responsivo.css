@@ -1,0 +1,37 @@
+@media (max-width: 778px){
+    .p-contener{
+        font-size: 2.2em;
+    }
+    .conteudo{
+        display: block;
+    }
+
+    .p-texto{
+        padding: 0 15%;
+    }
+    .meio{
+        width: 100%;
+    }
+    .meio2{
+        width: 100%;
+    }
+    .meio3{
+        width: 100%;
+    }
+    
+    .conteudo-meio{
+        font-size: 1em;
+    }
+    .meio4{
+        width: 100%;
+    }
+
+    .meio-4{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 2.1em;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,9 @@
+let boleto = 'BoletonaoPago'
+    function boletopn(){
+        if(boleto === 'BoletoPago'){
+            console.log("O boleto esta Pago")
+        }else{
+            console.log('O boleto não Esta Pago')
+        }
+    }
+    console.log(boletopn())

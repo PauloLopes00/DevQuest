@@ -1,0 +1,100 @@
+@media (max-width: 991.38px){
+    .meio{
+        padding: 153px 40px;
+    }
+    .Pmeio, .onde-estamos p {
+        width: 100%;
+    }
+}
+@media(max-width: 768px){
+    #contato{
+        background-image: none;
+        background-color: #D0A561;
+        position: relative;
+    }
+    #Pcont{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% -50%);
+    }
+}
+@media(max-width: 720px){
+    #img4, #img1{
+        width: 100%;
+    }
+    #img2, #img3{
+        width: 50%;
+    }
+
+    .rodape{
+        background-image: none;
+        background-color: black;
+    }
+
+    .rodape nav{
+        position: static;
+        display: block;
+        width: 100%;
+    }
+    .rodape nav, menu ul{
+        display: block;
+    }
+
+    .rodape nav, menu ul li a{
+        width: 100%;
+        display: block;
+    }
+    .rodape #rede-social{
+        float: none;
+    }
+    .rodape p{
+        text-align: center;
+    }
+}
+@media (max-width: 425px){
+    nav{
+        position: static;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    nav, menu ul{
+        display: block;
+    }
+
+    nav, menu ul li a{
+        width: 100%;
+        display: block;
+    }
+
+    #Pini{
+        font-size: 2.5rem;
+    }
+    
+    #cont{
+        font-size: 45px;
+        font-weight: 600px;
+        margin-bottom: 30px;
+    }
+    #Pcont{
+        font-size: 25px;
+        font-weight: 600px;
+        color: white;
+        position: relative;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .Pmeio{
+        font-size: 2rem;
+    }
+}
+@media(max-width: 375px){
+    #img2, #img3{
+        width: 100%;
+    }
+}
+
+
